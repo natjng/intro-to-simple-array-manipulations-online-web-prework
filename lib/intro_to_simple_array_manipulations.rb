@@ -34,17 +34,14 @@ def using_uniq(array)
   array.uniq
 end
 
-#using_flatten
-def using_flatten
-  
+def using_flatten(array)
+  array.flatten
 end
 
-#using_delete
-def using_delete
-  
+def using_delete(array, string)
+  array.delete(string)
 end
 
-#using_delete_at
-def using_delete_at
-  
+def using_delete_at(array, int)
+  array.delete_at(int)
 end
