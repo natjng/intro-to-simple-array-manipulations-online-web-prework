@@ -1,44 +1,35 @@
-#using_push
-def using_push(array,string)
+def using_push(array, string)
   array.push(string)
 end
 
-#using_unshift
-def using_unshift
-  
+def using_unshift(array, string)
+  array.unshift(string)
 end
 
-#using_pop
-def using_pop
-  
+def using_pop(array)
+  array.pop
 end
 
-#pop_with_args
-def pop_with_args
-  
+def pop_with_args(array)
+  array.pop(2)
 end
 
-#using_shift
-def using_shift
-  
+def using_shift(array)
+  array.shift
 end
 
-#shift_with_args
-def shift_with_args
-  
+def shift_with_args(array)
+  array.shift(2)
 end
 
-#using_concat
-def using_concat
-  
+def using_concat(array1, array2)
+  array1 = [array1 + array2]
 end
 
-#using_insert
-def using_insert
-  
+def using_insert(array, element)
+  array.insert(4, element)
 end
 
-#using_uniq
 def using_uniq
   
 end
